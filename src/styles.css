@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap");
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: "Manrope", "PingFang SC", "Microsoft YaHei", sans-serif;
+}
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  min-height: 100vh;
+  overflow-x: hidden;
+  background:
+    radial-gradient(circle at top left, rgba(208, 255, 231, 0.92), transparent 30%),
+    radial-gradient(circle at top right, rgba(255, 239, 210, 0.92), transparent 28%),
+    linear-gradient(180deg, #fafbf8 0%, #f4f6f1 100%);
+  color: #0f172a;
+  font-family: var(--font-sans);
+}
+
+#root {
+  min-height: 100vh;
+  width: 100%;
+}
+
+@media (min-width: 1024px) {
+  html {
+    font-size: 20px;
+  }
+}
