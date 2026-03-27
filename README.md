@@ -1,5 +1,9 @@
 ﻿# wxWebHook-panel
 
+![wxWebHook-panel](https://socialify.git.ci/aristorechina/wxWebHook-panel/image?font=Rokkitt&language=1&name=1&owner=1&pattern=Circuit+Board&theme=Dark)
+
+本仓库是 [![GitHub](https://img.shields.io/badge/Github-wxWebHook-181716?style=plastic&logo=github&logoColor=white)](https://github.com/aristorechina/wxWebHook) 的一部分。
+
 `wxWebHook-panel` 是 `wxWebHook-core` 的前端管理面板，提供一个可视化控制台用于完成微信接入、Webhook 配置、消息查看和测试消息发送。
 
 后端见  [![GitHub](https://img.shields.io/badge/Github-wxWebHook--core-181716?style=plastic&logo=github&logoColor=white)](https://github.com/aristorechina/wxWebHook-core)
