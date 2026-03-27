@@ -559,7 +559,10 @@ export default function App() {
         <aside className="self-start lg:sticky lg:top-6">
           <Card className="border-slate-200/90 bg-white/80 shadow-[0_24px_80px_-54px_rgba(15,23,42,0.45)] backdrop-blur">
             <CardHeader className="space-y-4">
-              <CardTitle className="text-2xl tracking-[-0.04em] text-slate-950">Webhook Panel</CardTitle>
+              <div className="flex items-center gap-2">
+                <img src="/logo.png" alt="logo" className="h-6 w-6 rounded object-contain" />
+                <CardTitle className="text-xl tracking-[-0.04em] text-slate-950">Webhook Panel</CardTitle>
+              </div>
               <Badge variant={loginState.variant} className="w-fit rounded-full px-3 py-1">
                 {loginState.label}
               </Badge>
